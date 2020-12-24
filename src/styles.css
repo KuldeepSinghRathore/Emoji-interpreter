@@ -3,7 +3,11 @@
   text-align: center;
   /* margin-top: 30%; */
 }
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html {
   background-color: #dfdfe5;
   font-size: 62.5%;
@@ -15,6 +19,7 @@ input {
   height: 3rem;
   border-radius: 1rem;
   outline: none;
+  margin: 2rem 0;
 }
 input::placeholder {
   color: #a19e9e;
@@ -28,15 +33,24 @@ input:focus {
 }
 h2 {
   color: #8b8e94;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
 span {
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 0.5rem;
   cursor: pointer;
   /* border: 1px solid black; */
   margin: 0.2rem;
-  width: 80%;
+  width: 50%;
   margin: auto;
   text-align: center;
+}
+.emoji-box {
+  display: inline-block;
+  width: 22%;
+  margin: auto;
+  border: 1px solid f9f9f9;
 }

@@ -108,6 +108,8 @@ export default function App() {
   }
   return (
     <div className="App">
+      <br />
+      <br />
       <h1>Emoji Lovers</h1>
       <input
         onChange={emojiInputHandler}
@@ -115,15 +117,20 @@ export default function App() {
       />
 
       <h2>{meaning}</h2>
-      <h3>Emoji's we know</h3>
+
+      <hr />
+      <br />
+      <h1>Emoji's we know</h1>
       {emojisWeknow.map(function (emoji) {
         return (
-          // <div className="emoji-box">
-          <span onClick={() => emojiClickHandler(emoji)} key={emoji}>
-            {" "}
-            {emoji}{" "}
-          </span>
-          // </div>
+          <div className="emoji-box">
+            <div className="container">
+              <span onClick={() => emojiClickHandler(emoji)} key={emoji}>
+                {" "}
+                {emoji}{" "}
+              </span>
+            </div>
+          </div>
         );
       })}
     </div>
