@@ -1,4 +1,42 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  /* margin-top: 30%; */
+}
+
+html {
+  background-color: #dfdfe5;
+  font-size: 62.5%;
+}
+input {
+  background: #c7c9d3;
+  /* font-size: 20px; */
+  width: 20rem;
+  height: 3rem;
+  border-radius: 1rem;
+  outline: none;
+}
+input::placeholder {
+  color: #a19e9e;
+  text-align: center;
+}
+input:hover,
+input:active,
+input:focus {
+  background: #fafafa;
+  cursor: pointer;
+}
+h2 {
+  color: #8b8e94;
+}
+
+span {
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  /* border: 1px solid black; */
+  margin: 0.2rem;
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
